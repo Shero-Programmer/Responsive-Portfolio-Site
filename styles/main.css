@@ -10,7 +10,57 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.color-primary{
+    color: #9575DE;
+}
+
+.text-primary{
+ color: #6527BE;
+}
+
+.btn-primary{
+     background-color: #6527BE;
+     color: white;
+     padding: 18px 35px;
+     border: 0;
+     border-radius: 5px;
+     font-size: 1.5rem;
+}
+
 h1{
     font-size: 2.5rem;
     text-align: center;
+}
+
+
+/* Nav section related styles */
+
+nav{
+    display: flex;
+    margin: 30px 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
