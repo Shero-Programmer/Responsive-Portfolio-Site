@@ -21,10 +21,21 @@ body{
 .btn-primary{
      background-color: #6527BE;
      color: white;
-     padding: 18px 35px;
+     padding: 15px 30px;
      border: 0;
      border-radius: 5px;
      font-size: 1.5rem;
+     font-weight: bolder;
+}
+
+.btn-secondary{
+     background-color: #EDE4FF;
+     color: #2B2730;
+     padding: 15px 30px;
+     border: 0;
+     border-radius: 5px;
+     font-size: 1.5rem;
+     font-weight: bolder;
 }
 
 h1{
@@ -44,7 +55,7 @@ nav{
 
 .nav-title{
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
@@ -62,5 +73,21 @@ nav ul li{
 nav a{
     text-decoration: none;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+
+/* Banner section related styles */
+
+
+.banner{
+    margin: 30px 70px;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+}
+
+.profile-img{
+    width: 100%;
 }
